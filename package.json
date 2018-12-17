@@ -1,0 +1,30 @@
+{
+  "name": "shebang-utils",
+  "description": "Shebang (#!) handler utilities for Node.js",
+  "keywords": [
+    "#!",
+    "shebang",
+    "Node.js"
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "version": "0.18.12",
+  "author": "djulien",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/djulien/shebang-utils.git"
+  },
+  "private": true,
+  "main": "./index.js",
+  "scripts": {
+    "dj-notes": "'npm update' to update pkgs, 'npm install' to install deps",
+    "test": "TODO"
+  },
+  "dependencies": {
+    "colors": "git+https://github.com/djulien/colors.js.git",
+    "debug": "^4.1.0",
+    "magic-globals": "^0.9.1",
+    "through2": "^3.0.0",
+    "try-require": "^1.2.1",
+    "xregexp": "^4.2.0"
+  }
+}
